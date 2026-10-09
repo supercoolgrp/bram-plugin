@@ -1,0 +1,9 @@
+name: BugReporter
+version: 1.0
+main: com.example.bugreporter.BugReporter
+api-version: '1.21'
+commands:
+  bug:
+    description: Main bug reporting command
+    permission: bugreporter.use
+    usage: /<command> [report|mail]
